@@ -17,4 +17,5 @@ def find_min_in_nested_arrays(src)
     end
     day += 1
   end
+  p week_lows
 end
