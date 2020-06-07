@@ -12,7 +12,7 @@ def find_min_in_nested_arrays(src)
         if src[day][hour] < low_temp
         low_temp = src[day][hour]
       end
-     week_lows << src[row][element]
+     week_lows << low_temp
       hour += 1
     end
     day += 1
