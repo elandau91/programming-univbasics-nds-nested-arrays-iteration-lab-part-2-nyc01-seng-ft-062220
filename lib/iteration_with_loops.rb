@@ -10,5 +10,11 @@ def find_min_in_nested_arrays(src)
     
     while hour < src[day].count do
         if src[day][hour] < low_temp
-
+        low_temp = src[day][hour]
+        week_lows << low_temp
+      end
+      hour += 1
+    end
+    day += 1
+  end
 end
